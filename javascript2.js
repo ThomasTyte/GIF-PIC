@@ -12,7 +12,7 @@ document.getElementById('search-form').addEventListener('submit', function(event
 fetchGiphyImages('Graduation');
 
 async function fetchGiphyImages(query) {
-    const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${encodeURIComponent(query)}&limit=10&offset=0&rating=g&lang=en`;
+    const url = `https://api.giphy.com/v1/gifs/search?api_key=${apiKey}&q=${encodeURIComponent(query)}&limit=47&offset=0&rating=g&lang=en`;
 
     console.log('Fetching URL:', url); 
     try {
