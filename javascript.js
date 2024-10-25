@@ -1,5 +1,6 @@
 const accessKey = 'xb4Wrbpm2TAtoUMayZuobv76eXyKQf0q64TijWG4hYg';
 $(document).ready(function() {
+    fetchImages('Random');
     $('#search-button').on('click', function() {
         const query = $('#search-input').val().trim(); 
         if (query) {
