@@ -37,7 +37,8 @@ async function fetchGiphyImages(query) {
       
         data.data.forEach(gif => {
             const img = document.createElement('img');
-            img.src = gif.images.fixed_height.url || gif.images.original.url; 
+            console.log (gif.images.fixed_width_still)
+            img.src = gif.images.fixed_width_still.url
             img.alt = gif.title || "GIF"; 
             img.style.margin = '10px'; 
             resultsDiv.appendChild(img);
@@ -47,3 +48,4 @@ async function fetchGiphyImages(query) {
         console.error('Error fetching data from Giphy API:', error);
     }
 }
+

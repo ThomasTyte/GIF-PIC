@@ -49,3 +49,9 @@ h3 {
     border-radius: 10px; 
     overflow: hidden; 
 }
+
+.Gifcontainer {
+
+    display: flex;
+    flex-wrap: wrap;
+}
