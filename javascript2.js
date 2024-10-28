@@ -37,8 +37,8 @@ async function fetchGiphyImages(query) {
       
         data.data.forEach(gif => {
             const img = document.createElement('img');
-            console.log (gif.images.fixed_width_still)
-            img.src = gif.images.fixed_width_still.url
+            console.log (gif.images.fixed_width)
+            img.src = gif.images.fixed_width.url
             img.alt = gif.title || "GIF"; 
             img.style.margin = '10px'; 
             resultsDiv.appendChild(img);
