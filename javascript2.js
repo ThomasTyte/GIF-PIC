@@ -37,10 +37,11 @@ async function fetchGiphyImages(query) {
       
         data.data.forEach(gif => {
             const img = document.createElement('img');
-            console.log (gif.images.fixed_width)
-            img.src = gif.images.fixed_width.url
+            console.log (gif.images)
+            img.src = gif.images.fixed_height.url 
+
             img.alt = gif.title || "GIF"; 
-            img.style.margin = '10px'; 
+           
             resultsDiv.appendChild(img);
             console.log('Added GIF:', img.src); 
         });
