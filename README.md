@@ -2,9 +2,13 @@
 
 GIF&PIC is a user friendly database that uses API to display both images and GIFs based on user input.
 
-<img src="./images/Screenshot 2024-10-25 140014.png/" style="width:600px">
+<img src="./images/Screenshot 2024-10-25 140014.png" style="width:600px">
 <img src="./images/Screenshot 2024-10-25 140041.png" style="width:600px">
 <img src="./images/Screenshot 2024-10-25 140058.png" style="width:600px">
+<img src="./images/Screenshot 2024-11-04 193014.png" style="width:600px">
+<img src="./images/Screenshot 2024-11-04 193430.png" style="width:600px">
+<img src="./images/Screenshot 2024-11-04 193326.png" style="width:600px">
+<img src="./images/Screenshot 2024-11-04 193258.png" style="width:600px">
 
 User Stories:
 
